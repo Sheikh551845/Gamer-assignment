@@ -67,16 +67,18 @@
     gap:0.5rem;
     padding: 0.5rem 0rem;
 }
-.h-m1{
+.h-m{
     color: #0B0223;
     font-size: 2.5rem;
 }
-.goat{
-    font-size: 5rem;
+.cmn-color{
     background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+}
+.goat{
+    font-size: 5rem;
     padding: 1rem 0rem;
 }
 .m1-btn1{
@@ -105,6 +107,67 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
-    margin: 1.5rem 0rem;    
+    margin: 1.5rem 0rem;
+        
+}
+.m1-text{
+    fill: linear-gradient(223deg, rgba(140, 87, 238, 0.03) 0%, rgba(241, 68, 174, 0.03) 100%);
+}
+.small-text{
+    color: #534C64;
+    font-size: 1.3rem;
+}
+.m2-text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
 }
 
+.section-2{
+    margin: 4rem 0rem;
+}
+.m2-img-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 1.5rem;
+}
+
+.m2-imgs img{
+    padding-bottom: 1rem;
+    height: 100%;
+}
+
+.image-container {
+    position: relative;
+    
+  }
+  
+  .play-button {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 60px;
+    height: 60px;
+    background: url('./images/play-button-icon-png-18919.png') ;
+    background-size: contain;
+    opacity: 0;
+  
+  }
+  
+  .image-container:hover .play-button {
+    opacity: 1;
+  }
+  
+  .image-container:hover img {
+    opacity: 0.5 ;
+    border: 3px solid red;
+    filter: brightness(50%);
+    
+  }
+  .image-container .play-button:hover{
+    cursor: pointer;
+  }
+  
