@@ -1,4 +1,4 @@
-@media screen and (max-width: 576px) {
+@media screen and (max-width: 640px) {
     .nav-container{
         display: flex;
         flex-direction: column;
@@ -55,6 +55,70 @@
         justify-content: center;
         
     }
+
+    .m3-container{
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+        width: 100%;
+       
+        height: fit-content;
+       
+      } .m3-text{
+        text-align: center;
+        padding-top: 0px;
+      }
+     
+     .m3-img1{
+        
+        padding: 60px;
+        padding-top: 0px;
+     }
+
+     
+     .m3-img1 img{
+        width: 100%;
+     }
+     
+     .m3-img2{
+        
+        width: 35%;
+        height: 40%;
+     }
+     .m3-img2 img{
+      width: 100%;
+     }
+      
+   .m3-img{
+    position: relative;
+  }
+  .m3-img2{
+    position: absolute;
+    top: 50%;
+    left: 0%;
+  }
+      
+
+
+      
+      
+
     
 
 }
+
+@media screen and (min-width: 641px) and (max-width: 1007px){
+
+}
+
+/*@media screen and (min-width: 1008px){
+    .m3-img{
+        position: relative;
+      }
+      .m3-img2{
+        position: absolute;
+        top: 380px;
+        left: -140px;
+      }
+
+}*/

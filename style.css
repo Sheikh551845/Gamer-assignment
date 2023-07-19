@@ -32,6 +32,7 @@
 .nav-option{
     display: flex;
     justify-content: space-around;
+    align-items: center;
     gap: 2rem;
     
 }
@@ -169,5 +170,21 @@
   }
   .image-container .play-button:hover{
     cursor: pointer;
+  }
+  .m3-text{
+    padding-top: 250px;
+    text-align: right; 
+  }
+  .m3-text p{
+    padding-top: 30px;
+  }
+
+  .m3-container{
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+    justify-items: center;
+    
+   
   }
   
